@@ -33,7 +33,7 @@ function reiniciarJuego() {
     document.getElementById("restart-button").style.display = "none";
 }
 
-// Función para comprobar el intento del jugador
+// Función para comprobar el turno del jugador
 function comprobarIntento() {
     const inputGuess = document.getElementById("guess");
     const resultadoElement = document.getElementById("result");
